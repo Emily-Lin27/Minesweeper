@@ -50,7 +50,7 @@ public class Minesweeper extends JFrame implements ActionListener{
   public static int time = 0; // initiates the timer 
   public static Timer myTimer; // Timer 
   public static Boolean bombTracker[][] = new Boolean[16][30]; 
-  public static String level = "B"; 
+  public static String level = "B"; // The default play level
   
   // GUI- related public variables 
   public static JButton[][] board = new JButton[8][8]; 
